@@ -11,19 +11,12 @@ Player 1 starts the game with "X", and Player 2 uses "O".
 Players take turns to click on any empty square on the 3x3 grid.
 The goal is to get 3 of your marks in a row—either horizontally, vertically, or diagonally.
 If all squares are filled and no one has won, it's a draw!
-To play again, simply press the 'R' key to restart the game.
 🛠️ How It Works
 The game uses a 2D array to keep track of the board state.
 Mouse input is used to detect where players want to place their mark.
 The game checks for a winner or a draw after each move.
 The grid and marks are drawn using Processing's built-in graphics functions.
 🚀 Getting Started
-Download and install Processing from processing.org.
-Clone this repository to your local machine:
-bash
-Copy code
-git clone https://github.com/your-username/tic-tac-toe.git
-Open the .pde file in Processing and hit the Run button.
 📂 File Structure
 TicTacToe.pde - The main game code.
 X.png & O.png - Images used for the X and O marks.
